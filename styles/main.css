@@ -1,22 +1,81 @@
 /* GLOBAL ITEMS */
 html, body {
   font-size: 100%;
-  font-family: 'Lato', sans-serif;
+  font-family: '-apple-system', 'Helvetica Neue', sans-serif;
+  background-color: #939598;
+  color: white;
+}
+
+.headings {
+  letter-spacing: .8em;
+}
+
+.text {
+  font-style: normal;
+  letter-spacing: 0;
+  max-width: 550px;
 }
 
 h1{
-  font-weight: 200;
-  margin: 0px;
+  font-weight: normal;
+  font-size: 400%;
+  margin: 0;
+  font-style: oblique;
 }
 
 h2{
-  font-weight: 200;
-  margin: 0px;
+  font-size: 200%;
 }
 
 h3{
-  font-weight: 100;
-  margin: 0px;
+  font-weight: normal;
+  font-style: oblique;
+  margin: 0;
+}
+
+p{
+  font-weight: normal;
+  font-size: 115%;
+}
+
+p.centered{
+  text-align: center;
+}
+
+p.justify{
+  text-align: left;
+}
+
+a{
+  display: inline;
+  color: white;
+}
+
+a:hover {
+  color: navy;
+  text-decoration: none;
+}
+
+.left{
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+  float: right;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 42em;
+}
+
+#content {
+  padding: 2em;
+}
+
+#header {
 }
 
 /* HOMEPAGE */
