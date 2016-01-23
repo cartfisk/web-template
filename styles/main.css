@@ -49,6 +49,7 @@ p.justify{
 a{
   display: inline;
   color: white;
+  text-decoration: none;
 }
 
 a:hover {
